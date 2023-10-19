@@ -3,6 +3,6 @@ MLops/
 *.json
 *.csv 
 *.pkl
-*.txt
-*.png
+report.txt
+*.pngS
 __pycache__/
