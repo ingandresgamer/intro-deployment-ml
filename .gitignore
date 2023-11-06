@@ -1,0 +1,8 @@
+MLops/
+-ipynb_checkpoints/
+*.json
+*.csv 
+*.pkl
+report.txt
+*.pngS
+__pycache__/
