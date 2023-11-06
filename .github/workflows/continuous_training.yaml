@@ -41,7 +41,7 @@ jobs:
       - uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ gitpush.ref }}
+          branch: ${{ github.ref }}
       - uses: iterative/setup-cml@v1
       - name: Push Metrics
         env:
