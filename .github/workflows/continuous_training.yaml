@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Train Model
         env:
-          SERVICE_ACCOUNT_KEY:${{secrets.SERVICE_ACCOUNT_KEY}} 
+          SERVICE_ACCOUNT_KEY: ${{secrets.SERVICE_ACCOUNT_KEY}} 
         run: |
           pip install virtualenv
           virtualenv venv
